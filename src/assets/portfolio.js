@@ -1,34 +1,36 @@
 export default [{
     id: 0,
+    title: "MEDIP",
+    summary: "This pipeline collects and analyzes data from Samsung Electronics' semiconductor" +
+        " manufacturing system." +
+        " It supports 24/7 data collection, and the processed data is continuously" +
+        " transferred to Samsung Electronics' HBase system without loss.",
+    skills: "Apache NiFi, Java, SpringBoot, Oracle, Bitbucket, Jenkins, Linux, Cloudera Manager, Hbase",
+    team: "Nahyun Lee and 9 members",
+    urlAvail: "N",
+    url: "N/A, Confidential"
+},
+{
+    id: 1,
+    title: "Newborn Track",
+    summary: "This website offers a health tracking service for newborns by conducting surveys" +
+        " with their parents. These surveys, designed by pediatricians and nurses, help monitor" +
+        " each baby's health and development more accurately. The site also provides information" +
+        " on common infant health issues and includes tools for regular health checkups.",
+    skills: "HTML, CSS, JavaScript, React, TypeScript, NestJS, Postresql, Git, AWS",
+    team: "Nahyun Lee and 2 members",
+    urlAvail: "Y",
+    url: "https://newborntrack.org"
+},
+{
+    id: 2,
     title: "My Homepage",
-    summary: "This is Nahyun Lee's Homepage",
+    summary: "This is Nahyun's portfolio homepage, built with Vue.js. It's fully responsive and" +
+    " designed for optimal performance on all devices.",
     skills: "HTML, CSS, JavaScript, Vue.js",
     team: "Nahyun Lee",
     urlAvail: "Y",
     url: "https://nahyunleylalee.github.io"
-},
-{
-    id: 1,
-    title: "MeetDoc",
-    summary: "This is a website providing medical services " +
-        "to people who doesn't have an easy access to hospital." +
-        " Patients can make an appointment online and have a video call for prescriptions." +
-        " Doctors can update daily schedules so they can manage their office hours easily.",
-    skills: "HTML, CSS, JavaScript, Vue.js, Bootstrap v5.0",
-    team: "Nahyun Lee and 4 members",
-    urlAvail: "Y",
-    url: "https://www.youtube.com/watch?v=jYbhYeH5nqM"
-},
-{
-    id: 2,
-    title: "Happy House",
-    summary: "This is a website providing real estate information of Korea. " +
-        "People can search apartment by location and apartment name. " +
-        "It also provides information on a map so people can check the location at the same time.",
-    skills: "HTML, CSS, JavaScript, Vue.js",
-    team: "Nahyun Lee and 1 member",
-    urlAvail: "Y",
-    url: "https://www.youtube.com/watch?v=TUdBZVj_vsw"
 },
 {
     id: 3,

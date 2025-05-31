@@ -8,9 +8,10 @@
         <div class="aboutme-content">
           <p class="sub-color">
             Hello, I do love and enjoy programming.
-            I have 2 years of work experience as a full-stack developer.
-            I am currently <span class="main-color">looking for front-end web developer position</span> in Canada since I am a Canadian permanent resident.
-            I can work during <span class="main-color">Canadian working hours</span> so
+            I have 3 years of work experience as a full-stack developer in Korea.
+            I am currently <span class="main-color">looking for web developer position</span> 
+            in Canada since I recently have moved in Burnaby, BC.
+            Also, I have 2 years of Canadian work experience so
             please feel free to contact me if you have any questions.
             Thank you!
           </p>
@@ -24,19 +25,19 @@
               </li>
               <li>
                 <span class="title main-color">Address</span>
-                <span class="value">Yongin, South Korea</span>
+                <span class="value">Burnaby, BC</span>
               </li>
               <li>
                 <span class="title main-color">E-mail</span>
                 <span class="value">florence5107@gmail.com</span>
               </li>
               <li>
-                <span class="title main-color">Phone(Korea)</span>
-                <span class="value">+82 10 6428 5107</span>
-              </li>
-              <li>
                 <span class="title main-color">Phone(Canada)</span>
                 <span class="value">+1 416 857 2799</span>
+              </li>
+              <li>
+                <span class="title main-color">Phone(Korea)</span>
+                <span class="value">+82 10 6428 5107</span>
               </li>
             </ul>
           </div>
@@ -47,6 +48,27 @@
         </div>
         <section class="timeline-vertical">
           <ul>
+            <li class="timeline-first">
+              <div>
+                <p class="timeline-job-title">Software Engineer</p>
+                <p class="timeline-company sub-color">Samsung SDS</p>
+                <time class="sub-color">2024</time>
+              </div>
+            </li>
+            <li class="timeline-first">
+              <div>
+                <p class="timeline-job-title">Full Stack Web Developer</p>
+                <p class="timeline-company sub-color">Bundang CHA hospital</p>
+                <time class="sub-color">2023</time>
+              </div>
+            </li>
+            <li class="timeline-first">
+              <div>
+                <p class="timeline-job-title">Medical Data Analyst</p>
+                <p class="timeline-company sub-color">Bundang CHA hospital</p>
+                <time class="sub-color">2023</time>
+              </div>
+            </li>
             <li class="timeline-first">
               <div>
                 <p class="timeline-job-title">Front-end Developer</p>
@@ -92,13 +114,29 @@
             <div class="skillbar">
               <div class="skills java main-color-back"></div>
             </div>
-            <!-- <p>Python</p>
+            <p>React</p>
             <div class="skillbar">
-              <div class="skills python main-color-back"></div>
-            </div> -->
+              <div class="skills react main-color-back"></div>
+            </div>
+            <p>TypeScript</p>
+            <div class="skillbar">
+              <div class="skills ts main-color-back"></div>
+            </div>
             <p>Vue.js</p>
             <div class="skillbar">
               <div class="skills vue main-color-back"></div>
+            </div>
+            <p>Oracle</p>
+            <div class="skillbar">
+              <div class="skills db main-color-back"></div>
+            </div>
+            <p>MySQL</p>
+            <div class="skillbar">
+              <div class="skills db main-color-back"></div>
+            </div>
+            <p>Postgresql</p>
+            <div class="skillbar">
+              <div class="skills db main-color-back"></div>
             </div>
         </div>
       </div>
@@ -368,18 +406,20 @@ time{
 }
 
 .html,
-.vue {
+.js,
+.java,
+.db {
   width: 95%;
 }
 
-.java,
-.js,
-.css {
+.css, 
+.react {
   width: 90%;
 }
 
-.python {
-  width: 70%;
+.vue,
+.ts {
+  width: 85%;
 }
 
 /**common end */

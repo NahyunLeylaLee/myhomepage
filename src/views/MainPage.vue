@@ -92,7 +92,7 @@ export default {
     height: 100%;
     background-color:white;
     border-radius: 30px;
-    overflow-y:auto;
+    overflow-y:scroll;
     text-align: center;
   }
 
