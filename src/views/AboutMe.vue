@@ -50,7 +50,7 @@
           <ul>
             <li class="timeline-first">
               <div>
-                <p class="timeline-job-title">Software Engineer</p>
+                <p class="timeline-job-title">Software Developer</p>
                 <p class="timeline-company sub-color">Samsung SDS</p>
                 <time class="sub-color">2024</time>
               </div>

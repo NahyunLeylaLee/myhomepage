@@ -1,5 +1,17 @@
-export default [{
+export default [
+    {
     id: 0,
+    title: "Natflix(Personal)",
+    summary: "This is the homepage of my Netflix clone coding project for fun." +
+    " Since Netflix no longer provides access to information like currently playing or popular movies and TV shows," + 
+    " I created this website to allow users to easily check up-to-date information on current films and series.",
+    skills: "React, TypeScript, css(styled-components), animation(framer-motion), html",
+    team: "Nahyun Lee",
+    urlAvail: "Y",
+    url: "https://nahyunleylalee.github.io/Natflix"
+},
+{
+    id: 1,
     title: "MEDIP",
     summary: "This pipeline collects and analyzes data from Samsung Electronics' semiconductor" +
         " manufacturing system." +
@@ -11,7 +23,7 @@ export default [{
     url: "N/A, Confidential"
 },
 {
-    id: 1,
+    id: 2,
     title: "Newborn Track",
     summary: "This website offers a health tracking service for newborns by conducting surveys" +
         " with their parents. These surveys, designed by pediatricians and nurses, help monitor" +
@@ -23,7 +35,7 @@ export default [{
     url: "https://newborntrack.org"
 },
 {
-    id: 2,
+    id: 3,
     title: "My Homepage",
     summary: "This is Nahyun's portfolio homepage, built with Vue.js. It's fully responsive and" +
     " designed for optimal performance on all devices.",
@@ -33,7 +45,7 @@ export default [{
     url: "https://nahyunleylalee.github.io"
 },
 {
-    id: 3,
+    id: 4,
     title: "SAMBA",
     summary: "This is a dashboard website providing Samsung's internal network status.",
     skills: "HTML, CSS, JavaScript, Java, SpringBoot, SQL",
@@ -42,7 +54,7 @@ export default [{
     url: "N/A, Confidential"
 },
 {
-    id: 4,
+    id: 5,
     title: "Integrated Website",
     summary: "This is an integrated website providing 7 different military systems of Korea.",
     skills: "HTML, CSS, JavaScript, Java, SpringBoot, SQL",

@@ -9,18 +9,30 @@ const routes = [
     {
         path: "/",
         component: HomePage,
+        meta: {
+            title: 'Nahyun Lee Homepage'
+        }
     },
     {
         path: "/portfolio",
         component: PortFolio,
+        meta: {
+            title: 'PortFolio'
+        }
     },
     {
         path: "/about-me",
         component: AboutMe,
+        meta: {
+            title: 'About Me'
+        }
     },
     {
         path: "/portfolio/:id",
         component: PortfolioDetail,
+        meta: {
+            title: 'PortFolio'
+        }
     },
 ];
 
@@ -28,5 +40,9 @@ const router = createRouter({
     history: createWebHashHistory(),
     routes,
 });
+
+router.beforeEach((to) => {
+    document.title = to.meta?.title ?? 'Nahyun Lee Homepage'
+})
 
 export default router;
