@@ -1,6 +1,9 @@
 <template>
   <div class="detail-wrapper">
-    <div class="page-title">
+    <div class="portfolio-page-title">
+      <router-link to="/portfolio">
+        <img :src="require(`../assets/img/previous.png`)" :alt="go_back" class="go-back"/>
+      </router-link>
       <h2 class="font-32 profile-detail-title">{{data[this.$route.params.id].title}}</h2>
     </div>
     <div class="portfolio-photo">
@@ -26,7 +29,6 @@
             <a :href="`${data[this.$route.params.id].url}`" class="value portfolio-url" target="_blank">
               {{data[this.$route.params.id].url}}
             </a>
-            <i class="fa-solid fa-square-arrow-up-right url-icon"></i>
           </div>
           <div v-else>
             <span>{{data[this.$route.params.id].url}}</span>
@@ -134,6 +136,31 @@ export default {
 
 a{
   color: #555;
+}
+
+.portfolio-photo{
+  display: flex;
+  justify-content: center;
+}
+
+.go-back{
+  height:30px;
+  width: 30px;
+  color: #fca072;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.go-back:hover{
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #F9ECDB;
+}
+
+.portfolio-page-title{
+  color:#fca072;
+  display: flex;
+  align-items: center;
 }
 
 </style>

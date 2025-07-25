@@ -117,7 +117,7 @@ export default {
 
   .sidebar-container {
     width: 100%;
-    height: calc(100% - 75px);
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -133,8 +133,6 @@ export default {
 
 @media screen and (min-width: 1360px) {
   .sidebar-container {
-    width: 100%;
-    height: calc(100% - 75px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

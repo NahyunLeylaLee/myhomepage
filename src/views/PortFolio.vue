@@ -7,7 +7,7 @@
       <div class="portfolio-list">
         <router-link :to="`/portfolio/${i}`" class="sub-color" v-for="(portfolio,i) in data" :key="i">
           <div class="portfolio-item">
-            <i class="fa-solid fa-square-arrow-up-right"></i>
+            <span style="font-size: 10px">●</span>
             <span class="portfolio-title">{{portfolio.title}}</span>
           </div>
         </router-link>
@@ -56,8 +56,11 @@ export default {
   }
 
   .portfolio-item:hover{
-    background-color: rgb(190,190,190,.2);
+    background-color: #F9ECDB;
+    color: #8B4513;
+    border-radius: 20px;
     cursor: pointer;
+    box-shadow: 0 2px 6px rgba(90, 62, 43, 0.12);
   }
 } 
 
