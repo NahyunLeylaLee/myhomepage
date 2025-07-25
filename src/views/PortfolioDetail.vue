@@ -101,6 +101,10 @@ export default {
   .portfolio-url{
     word-wrap: break-word;
   }
+
+  .portfolio-page-title{
+    margin: 10px 0 0 0;
+  }
 }
 
 
@@ -119,7 +123,11 @@ export default {
   .url-icon{
   font-size: 18px;
   margin-left: 5px;
-}
+  }
+
+  .portfolio-page-title{
+    margin: 10px 0 0 0;
+  }
 }
 
 .detail-wrapper button{
@@ -149,6 +157,7 @@ a{
   color: #fca072;
   padding: 5px;
   margin-right: 5px;
+  display: flex;
 }
 
 .go-back:hover{
