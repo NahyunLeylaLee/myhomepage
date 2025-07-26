@@ -1,24 +1,10 @@
-# myhomepage
+# Welcome to Nahyun Lee's website!
 
-## Project setup
-```
-npm install
-```
+This is Nahyun Lee's website!
+Please click below!
+https://nahyunleylalee.github.io/myhomepage
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Also, please check my wireframe work below; <br/>
+[myhomepage wireframe.pptx](https://github.com/NahyunLeylaLee/NahyunLeylaLee.github.io/files/9962238/myhomepage.wireframe.pptx)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Skills; HTML, CSS, JavaScript, Vue.js
